@@ -1,0 +1,83 @@
+.footer {
+  &__wrapper {
+    background: #2E2E2E;
+    padding: 83px 0 82px 0;
+  }
+  &__container {
+  }
+  &__body {
+    text-align: center;
+  }
+  &__title {
+    font-weight: 200;
+    font-size: 48px;
+    line-height: 30 / 48 * 100%;
+    letter-spacing: 3.072px;
+    color: #FFFFFF;
+    margin-bottom: 29px;
+  }
+  &__text {
+    font-size: 13px;
+    line-height: 19 / 13 * 100%;
+    letter-spacing: 0.832px;
+    color: #FFFFFF;
+    opacity: 0.5;
+  }
+  &__geo {
+    margin-bottom: 10px;
+  }
+  &__info {
+    margin-bottom: 39px;
+  }
+  &__icons {
+    display: flex;
+    justify-content: center;
+    gap: 21px;
+  }
+  &__icon {
+    color: #FFFFFF;
+    opacity: 0.5;
+    font-size: 40px;
+    transition: all 0.3s ease 0s;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+  &__designed {
+    padding: 20px 0;
+    text-align: center;
+    background: #252525;
+  }
+}
+.designed__text {
+  font-size: 13px;
+  line-height: 19 / 13 * 100%;
+  letter-spacing: 0.832px;
+  color: #FFFFFF;
+  opacity: 0.5;
+}
+
+@media(max-width: $md2) {
+  .footer__wrapper {
+    padding: 58px 0 54px 0;
+  }
+}
+
+@media(max-width: $md3) {
+  .footer__title {
+    font-size: 42px;
+  }
+  .footer__icon {
+    font-size: 36px;
+  }
+}
+
+@media(max-width: $md4) {
+  .footer__title {
+    font-size: 38px;
+  }
+  .footer__icon {
+    font-size: 30px;
+  }
+}

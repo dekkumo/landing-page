@@ -1,0 +1,82 @@
+.contact {
+  &__wrapper {
+  }
+  &__container {
+  }
+  &__body {
+  }
+  &__button {
+  }
+}
+.button {
+
+  &__item {
+    padding: 69px 0 100px 0;
+  }
+  &__icon {
+    font-size: 24px;
+    margin-bottom: 19px;
+  }
+  &__title {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36 / 24 * 100%;
+    letter-spacing: 2.66667px;
+    color: #373737;
+    margin-bottom: 22px;
+    transition: all 0.3s ease 0s;
+  }
+  &__text {
+    font-size: 14px;
+    line-height: 19 / 14 * 100%;
+    letter-spacing: 1.55556px;
+    color: #373737;
+    opacity: 0.8;
+  }
+}
+.item__content {
+  text-align: center;
+}
+.mail-green {
+  background: #70BD59;
+  transition: all 0.3s ease 0s;
+
+  &:hover {
+    background: #5c9b49;
+  }
+}
+.mail {
+  color: #fff;
+}
+.work {
+  background: #FBFBFB;
+  transition: all 0.3s ease 0s;
+
+  &:hover {
+    background: #cecccc;
+  }
+}
+
+@media(min-width: $md3) {
+  .button {
+    display: flex;
+  }
+  .button__item {
+    flex: 0 1 50%;
+  }
+}
+
+@media(max-width: $md2) {
+  .button__item {
+    padding: 43px 0 61px 0;
+  }
+}
+
+@media(max-width: $md4) {
+  .button__title {
+    font-size: 20px;
+  }
+  .button__text {
+    font-size: 12px;
+  }
+}

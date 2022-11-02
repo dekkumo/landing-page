@@ -1,0 +1,61 @@
+.main{
+  &__wrapper {
+  }
+  &__container {
+
+  }
+  &__body {
+  }
+  &__text {
+
+  }
+}
+.text {
+  text-align: center;
+  color: #fff;
+  &__title {
+    font-weight: 500;
+    @include adaptiv-value("font-size", 72, 32, 1);
+    line-height: 107 / 72 * 100%;
+    letter-spacing: 4.608px;
+    margin: 0 0 24.5px 0;
+
+    transform: translate(0, 120%);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+
+  }
+  &__subtitle {
+    font-family: 'Open Sans';
+    font-size: 20px;
+    line-height: 27 / 20 * 100%;
+    letter-spacing: 1.28px;
+    opacity: 0.8;
+
+    transform: translate(0, 120%);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+  }
+}
+.text__title._active {
+  transform: translate(0, 0);
+  opacity: 1;
+}
+.text__subtitle._active {
+  transform: translate(0, 0);
+  opacity: 1;
+  transition: all 0.8s ease 0.4s;
+}
+.main {
+  &__number {
+    display: flex;
+    justify-content: center;
+    gap: 9px;
+    text-align: center;
+    color: #fff;
+  }
+}
+.number {
+  &__item {
+  }
+}
