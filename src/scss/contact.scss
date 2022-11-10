@@ -20,7 +20,7 @@
   &__title {
     font-weight: 400;
     font-size: 24px;
-    line-height: 36 / 24 * 100%;
+    line-height: calc(36 / 24 * 100%);
     letter-spacing: 2.66667px;
     color: #373737;
     margin-bottom: 22px;
@@ -28,7 +28,7 @@
   }
   &__text {
     font-size: 14px;
-    line-height: 19 / 14 * 100%;
+    line-height: calc(19 / 14 * 100%);
     letter-spacing: 1.55556px;
     color: #373737;
     opacity: 0.8;

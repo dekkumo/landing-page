@@ -23,7 +23,7 @@
   position: relative;
     font-weight: 700;
     font-size: 48px;
-    line-height: 71 / 48 * 100% ;
+    line-height: calc(71 / 48 * 100%);
     letter-spacing: 3.072px;
     color: #252525;
     margin-bottom: 85px;
@@ -76,7 +76,7 @@
   &__title {
     position: relative;
     font-size: 20px;
-    line-height: 30 / 20 * 100%;
+    line-height: calc(30 / 20 * 100%);
     letter-spacing: 1.28px;
     text-transform: uppercase;
     color: #252525;
@@ -102,7 +102,7 @@
     font-family: 'Open Sans';
     font-weight: 400;
     font-size: 12px;
-    line-height: 25 / 12 * 100%;
+    line-height: calc(25 / 12 * 100%);
     letter-spacing: 1.008px;
     color: #777777;
     margin-bottom: 19px;

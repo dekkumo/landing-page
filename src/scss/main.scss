@@ -16,7 +16,7 @@
   &__title {
     font-weight: 500;
     @include adaptiv-value("font-size", 72, 32, 1);
-    line-height: 107 / 72 * 100%;
+    line-height: calc(107 / 72 * 100%);
     letter-spacing: 4.608px;
     margin: 0 0 24.5px 0;
 
@@ -28,7 +28,7 @@
   &__subtitle {
     font-family: 'Open Sans';
     font-size: 20px;
-    line-height: 27 / 20 * 100%;
+    line-height: calc(7 / 20 * 100%);
     letter-spacing: 1.28px;
     opacity: 0.8;
 

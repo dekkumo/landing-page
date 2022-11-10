@@ -15,7 +15,7 @@
   &__item {
     font-weight: 700;
     font-size: 18px;
-    line-height: 27 / 18 * 100%;
+    line-height: calc(27 / 18 * 100%);
     letter-spacing: 1.152px;
     color: rgba(255, 255, 255, 0.437245);
   }
@@ -23,7 +23,7 @@
 .grow {
   position: relative;
   font-size: 36px;
-  line-height: 53 / 36 * 100%;
+  line-height: calc(53 / 36 * 100%);
   letter-spacing: 2.304px;
   color: #FFFFFF;
 
