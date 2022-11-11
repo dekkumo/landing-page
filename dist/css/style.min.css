@@ -813,6 +813,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 .card__wrapper {
+  word-break: break-all;
   transition: all 0.3s ease 0s;
 }
 .card__wrapper:hover {
@@ -823,6 +824,9 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   padding: 50px 49px 35px 43px;
   background-color: #fff;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 .card__body:after {
   content: "";
@@ -873,6 +877,7 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 1.008px;
   color: #777777;
   margin-bottom: 19px;
+  flex-grow: 1;
 }
 .card__link {
   letter-spacing: 0.64px;
