@@ -17,7 +17,7 @@
     flex: 1 1 auto;
     font-weight: 600;
     font-size: 36px;
-    line-height: 30 / 36 * 100%;
+    line-height: calc(30 / 36 * 100%);
   }
   &__menu {
 
@@ -38,7 +38,7 @@
     color: #fff;
     font-weight: 400;
     font-size: 14px;
-    line-height: 21 / 14 * 100%;
+    line-height: calc(21 / 14 * 100%);
     letter-spacing: 1.94px;
     transition: all 0.3s ease 0s;
 

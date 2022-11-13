@@ -30,7 +30,7 @@
     text-transform: uppercase;
     font-weight: 600;
     font-size: 13px;
-    line-height: 18 / 13 * 100%;
+    line-height: calc(18 / 13 * 100%);
     letter-spacing: 0.832px;
     color: #252525;
     opacity: 0.3;
@@ -52,7 +52,7 @@
     z-index: 5;
     font-weight: 300;
     font-size: 46px;
-    line-height: 71 / 48 * 100%;
+    line-height: calc(71 / 48 * 100%);
     letter-spacing: 3.072px;
     color: #252525;
     white-space: nowrap;
@@ -71,7 +71,7 @@
   &__subtitle {
     font-family: 'Open Sans';
     font-size: 18px;
-    line-height: 25 / 18 * 100%;
+    line-height: calc(25 / 18 * 100%);
     letter-spacing: 1.152px;
     color: #252525;
   }
@@ -79,7 +79,7 @@
     font-family: 'Open Sans';
     position: relative;
     font-size: 13px;
-    line-height: 23 / 13 * 100%;
+    line-height: calc(23 / 13 * 100%);
     letter-spacing: 0.832px;
     color: #C2C2C2;
   }
@@ -122,7 +122,7 @@
   position: relative;
   font-weight: 400;
   font-size: 13px;
-  line-height: 18 / 13 * 100%;
+  line-height: calc(18 / 13 * 100%);
   letter-spacing: 0.832px;
   color: #252525;
 }
@@ -133,7 +133,7 @@
     right: 0;
     font-weight: 400;
     font-size: 13px;
-    line-height: 19 / 13 * 100%;
+    line-height: calc(19 / 13 * 100%);
     letter-spacing: 2px;
     color: #252525;
     transition: all 0.3s ease 0s;
